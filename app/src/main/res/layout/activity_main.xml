@@ -67,6 +67,7 @@
         android:inputType="numberPassword"/>
 
     <TextView
+        android:id="@+id/lblResetPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Forget your password"
@@ -79,7 +80,7 @@
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:text="LOGIN"
-        android:backgroundTint="#E9AE4A"
+        android:backgroundTint="#FF5593"
         android:layout_gravity="end"
         android:layout_marginEnd="60dp"
         android:layout_marginTop="40dp"/>

@@ -15,7 +15,7 @@
         android:textSize="40sp"
         android:text="REGISTER"
         android:letterSpacing="0.1"
-        android:textColor="#406DE1"
+        android:textColor="#FF5593"
         android:textStyle="bold"
         android:layout_marginTop="80dp"
         android:layout_marginStart="20dp"/>
@@ -29,6 +29,7 @@
         android:textColor="#406DE1"/>
 
     <EditText
+        android:id="@+id/txtApellidoNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -46,6 +47,7 @@
         android:textColor="#406DE1"/>
 
     <EditText
+        android:id="@+id/txtCorreoRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -63,6 +65,7 @@
         android:textColor="#406DE1"/>
 
     <EditText
+        android:id="@+id/txtTelefonoRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -81,6 +84,7 @@
         android:textColor="#406DE1"/>
 
     <EditText
+        android:id="@+id/txtPassRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -95,27 +99,30 @@
         android:rowCount="1"
         android:layout_margin="40dp">
         <Button
+            android:id="@+id/btnRegistrarRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Registrar"
             android:layout_column="0"
             android:layout_row="0"
             android:layout_marginEnd="10dp"
-            android:backgroundTint="#E9AE4A"/>
+            android:backgroundTint="#FF5593"/>
         <Button
+            android:id="@+id/btnCancelarRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cancelar"
             android:layout_column="1"
             android:layout_row="0"
             android:layout_marginEnd="10dp"
-            android:backgroundTint="#E9AE4A"/>
+            android:backgroundTint="#FF5593"/>
         <Button
+            android:id="@+id/btnLimpiarRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Limpiar"
             android:layout_column="2"
             android:layout_row="0"
-            android:backgroundTint="#E9AE4A"/>
+            android:backgroundTint="#FF5593"/>
     </GridLayout>
 </LinearLayout>
